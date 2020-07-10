@@ -6,7 +6,10 @@
     border: 0;
 }
 /*common items*/
-
+article img{
+    border: solid black;
+    border-width: 1px;
+}
 /*header*/
 nav ul{
     margin-top: 50px;
@@ -68,10 +71,33 @@ header section{
     margin-bottom: 30px;
 }
 #a1 img{
-    height: 800px;
+    height: 500px;
     width: 900px;
-    border: solid black;
-    border-width: 1px;
     margin-top: 60px;
     margin-bottom: 60px;
+}
+/*article 2*/
+#a2{
+    margin-top:30px;
+}
+#a2, #a3, #a4{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+#a2 img, #a3 img, #a4 img{
+    width: 55vw;
+    height: 400px;
+}
+#a2 section,#a3 section,#a4 section{
+    width: 45vw;
+    height: 400px;
+    padding: 100px;
+    background: lightgrey;
+}
+#a2 section h2,#a3 section h2,#a4 section h2{
+    margin-bottom: 25px;
+}
+#a4{
+    margin-bottom: 30px;
 }
