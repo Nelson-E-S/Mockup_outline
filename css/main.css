@@ -49,4 +49,29 @@ header section{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    text-align: center;
+}
+#a1 #mainText{
+    font-size: 28pt;
+    margin-bottom: 30px;
+}
+#a1 #descText{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#a1 #box{
+    border: solid black;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#a1 img{
+    height: 800px;
+    width: 900px;
+    border: solid black;
+    border-width: 1px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
