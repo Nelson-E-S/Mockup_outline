@@ -6,9 +6,17 @@
     border: 0;
 }
 /*common items*/
-article img{
+article img, footer img{
     border: solid black;
     border-width: 1px;
+}
+.box{
+    border: solid black;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 /*header*/
 nav ul{
@@ -62,14 +70,6 @@ header section{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-#a1 #box{
-    border: solid black;
-    padding: 10px;
-    padding-right: 50px;
-    padding-left: 50px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
 #a1 img{
     height: 500px;
     width: 900px;
@@ -100,4 +100,48 @@ header section{
 }
 #a4{
     margin-bottom: 30px;
+}
+/*footer*/
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+footer div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+footer div section{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+}
+footer div #left{
+    padding-right: 200px;
+}
+footer div #right{
+    padding-left:100px;
+}
+#social .box{
+    margin-right: 20px;
+}
+footer div section h4{
+    margin-bottom: 30px;
+}
+footer div section label{
+    margin-bottom: 10px;
+}
+footer div section input[type=text]{
+    padding: 0;
+    height: 35px;
+    width: 300px;
+}
+footer div section img{
+    width: 90px;
+    height: 50px;
+}
+footer section{
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
